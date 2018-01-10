@@ -15,6 +15,7 @@
 		84BE0D112006030200D75967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D102006030200D75967 /* main.m */; };
 		84BE0D1B2006030300D75967 /* HelloDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D1A2006030300D75967 /* HelloDemoTests.m */; };
 		84BE0D262006030300D75967 /* HelloDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D252006030300D75967 /* HelloDemoUITests.m */; };
+		84BE0D3620060A6000D75967 /* ABCTestGrpcCocoapodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D3520060A6000D75967 /* ABCTestGrpcCocoapodsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		84BE0D212006030300D75967 /* HelloDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE0D252006030300D75967 /* HelloDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDemoUITests.m; sourceTree = "<group>"; };
 		84BE0D272006030300D75967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BE0D3420060A6000D75967 /* ABCTestGrpcCocoapodsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABCTestGrpcCocoapodsViewController.h; sourceTree = "<group>"; };
+		84BE0D3520060A6000D75967 /* ABCTestGrpcCocoapodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCTestGrpcCocoapodsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				84BE0D022006030200D75967 /* AppDelegate.m */,
 				84BE0D042006030200D75967 /* ViewController.h */,
 				84BE0D052006030200D75967 /* ViewController.m */,
+				84BE0D3320060A3E00D75967 /* ABCTestGrpcCocoapods */,
 				84BE0D072006030200D75967 /* Main.storyboard */,
 				84BE0D0A2006030200D75967 /* Assets.xcassets */,
 				84BE0D0C2006030200D75967 /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				84BE0D272006030300D75967 /* Info.plist */,
 			);
 			path = HelloDemoUITests;
+			sourceTree = "<group>";
+		};
+		84BE0D3320060A3E00D75967 /* ABCTestGrpcCocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				84BE0D3420060A6000D75967 /* ABCTestGrpcCocoapodsViewController.h */,
+				84BE0D3520060A6000D75967 /* ABCTestGrpcCocoapodsViewController.m */,
+			);
+			path = ABCTestGrpcCocoapods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				84BE0D062006030200D75967 /* ViewController.m in Sources */,
 				84BE0D112006030200D75967 /* main.m in Sources */,
 				84BE0D032006030200D75967 /* AppDelegate.m in Sources */,
+				84BE0D3620060A6000D75967 /* ABCTestGrpcCocoapodsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
